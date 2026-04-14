@@ -1,16 +1,14 @@
-# This is a sample Python script.
+from ultralytics import YOLO
+def trainModel():
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+    model = YOLO("yolo11n.pt")
+    model.train(
+        data="Datasets/roadpoles_v1/data.yaml",
+        epochs=100,
+        imgsz=640,
+        batch=16,
+    )
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    trainModel()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
