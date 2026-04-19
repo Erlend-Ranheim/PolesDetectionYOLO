@@ -1,5 +1,4 @@
 # Snow Pole Detection — TDT4265 Mini-Project
-**Student:** Erlend Ranheim  
 **Course:** TDT4265 Computer Vision and Deep Learning, NTNU 2026  
 **Task:** Snow Pole Detection with images from Trondheim
 
@@ -20,7 +19,7 @@ in winter conditions.
 - **Road_Poles_iPhone** — 942 train, 261 validation, 138 test images. iPhone footage, 1080×1920px JPEG
 
 ## Model
-- Architecture: YOLO11s (small) — pretrained on COCO, fine-tuned on Poles2025
+- Architecture: YOLO11s (small), pretrained on COCO, fine-tuned on Poles2025
 
 ## Training Setup
 - Platform: Google Colab Pro (NVIDIA A100 SXM4 80GB)
