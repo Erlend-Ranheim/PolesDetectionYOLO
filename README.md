@@ -5,7 +5,7 @@
 ## Overview
 Real-time detection of snow poles using YOLO11s, trained on two datasets 
 captured in the Trøndelag region. Snow poles are used to localize roads 
-in winter conditions.
+in winter conditions. Project built for the course TDT4265, gaining a 3rd place finish of over 80 contestants
 
 ## Results
 
