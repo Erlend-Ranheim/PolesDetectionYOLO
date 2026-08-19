@@ -5,7 +5,16 @@
 ## Overview
 Real-time detection of snow poles using YOLO11s, trained on two datasets 
 captured in the Trøndelag region. Snow poles are used to localize roads 
-in winter conditions. Project built for the course TDT4265, gaining a 3rd place finish of over 80 contestants
+in winter conditions. 
+
+## What I Learned
+- Data augmentation techniques (mosaic, HSV shift, etc.) and their effect on mAP in low-data regimes
+- Trade-offs between dataset quality/consistency vs. size (dashcam vs. iPhone footage results)
+- Fine-tuning YOLO11 architectures and interpreting precision/recall/mAP metrics
+- Project built for the course TDT4265, gaining a 3rd place finish of over 80 contestants.
+
+<img width="1920" height="1228" alt="val_batch1_pred(1)" src="https://github.com/user-attachments/assets/7c5c84a5-eb75-413d-ab7c-2b5eb13784cf" />
+
 
 ## Results
 
